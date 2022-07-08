@@ -19,7 +19,6 @@ nav {
     width: 20%;
     overflow: auto;
     float: left;
-    z-index: 20;
     left: 0px;
     min-height: 600px;
     opacity: 70%;
@@ -28,6 +27,21 @@ nav {
 .navbar {
     position: fixed !important;
   }
+
+.nav-link a {
+  color: orange !important;
+}
+
+a:hover {
+  color: red;
+}
+
+.logo {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  z-index: 20;
+}
 
 @media (min-width: 768px) {
 
