@@ -43,6 +43,15 @@ a:hover {
   z-index: 20;
 }
 
+#logo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-nav {
+  position: absolute;
+}
+
 @media (min-width: 768px) {
 
   }
